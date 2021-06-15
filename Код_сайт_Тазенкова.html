@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+  <title>Made in by Tazenkova Olga Andreevna</title> 
+ </head>
+
+<style>
+   .label-desc {
+  color:#800000;
+  font-size: 270%;
+  }
+  
+   .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    }
+
+    select { 
+    padding: 20px; 
+    border: solid 1px #800000; 
+    outline: 0; 
+    background: linear-gradient(to top, #FFFFFF, #800000); 
+    border-radius:13px;
+    width:300px;
+    } 
+       
+    .left {
+    left: 0;
+    background: linear-gradient(to top, #708090, #FFFFFF);
+    }
+
+    .right {
+    right: 0;
+    background: linear-gradient(to top, #708090, #FFFFFF);
+    }
+
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+</style>
+
+<body>
+
+<div class="split left">
+ <div class="centered">
+  <form action="#">
+   <div class="select-box">
+   <label for="select-box1" class="label select-box1"><span class="label-desc">Риск-сигнал</span> </label>  
+    <p><select id="select-box1" class="select">
+      <option value="">Выберите Риск-сигнал</option>
+      <option value="Choice 1">variable 1</option>
+      <option value="Choice 2">variable 2</option>
+      <option value="Choice 3">variable 3</option>
+      <option value="Choice 4">variable 4</option>
+      <option value="Choice 5">variable 5</option>
+      <option value="Choice 6">variable 6</option>
+      <option value="Choice 7">variable 7</option>
+      <option value="Choice 8">variable 8</option>
+      <option value="Choice 9">variable 9</option>
+      <option value="Choice 10">variable 10</option>
+      <option value="Choice 11">variable 11</option>
+      <option value="Choice 12">variable 12</option>
+      <option value="Choice 13">variable 13</option>
+      <option value="Choice 14">variable 14</option>
+      <option value="Choice 15">variable 15</option>
+      <option value="Choice 16">variable 16</option>
+      <option value="Choice 17">variable 17</option>
+      <option value="Choice 18">variable 18</option>
+      <option value="Choice 19">variable 19</option>
+      <option value="Choice 20">variable 20</option>
+      <option value="Choice 21">variable 21</option>
+      <option value="Choice 22">variable 22</option>
+      <option value="Choice 23">variable 23</option>
+      <option value="Choice 24">variable 24</option>
+      <option value="Choice 25">variable 25</option>
+      <option value="Choice 26">variable 26</option>
+      <option value="Choice 27">variable 27</option>
+      <option value="Choice 28">variable 28</option>
+      <option value="Choice 29">variable 29</option>
+      <option value="Choice 30">variable 30</option>
+    </select>
+<p></p>
+
+<script>
+const select = document.querySelector('select');
+const para = document.querySelector('p');
+
+select.onchange = setWeather;
+
+function setWeather() {
+  const choice = select.value;
+
+  if (choice === 'Choice 1') {
+    alert('Высокий риск!');
+  } else if (choice === 'Choice 2') {
+    alert('Высокий риск!');
+  } else if (choice === 'Choice 3') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 4') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 5') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 6') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 7') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 8') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 9') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 10') {
+    alert('Средний риск!');
+  } else if (choice === 'Choice 11') {
+    alert('Средний риск!');
+  } else {
+    alert('Приемлемый риск');
+  }
+}
+ </script>
+ </form> 
+
+<p>
+</p>
+
+
+    <img src="img/2.jpg" width="950" height="600" class="leftpic"> 
+    <style>
+   .leftpic {
+    float: left; /* Выравнивание по правому краю первой картинки */
+       }
+  </style>
+
+  <p><a href="mailto:olga.tazenkova@akbars.ru"><i>По всем вопросам обращаться сюда</i></a></p>  
+  </div>
+   
+</form> 
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+  <button title="Нажмите сюда" alt="Нажмите сюда"><img src="img/1.jpg" width="500" height="300" class="round" 
+onClick='location.href="Рекомендации.html"'></button> 
+<style>  
+.round {
+    border: 3px solid blue; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    }
+</style>
+ </body> 
+
+</div>
+
+</body>
+</html>
